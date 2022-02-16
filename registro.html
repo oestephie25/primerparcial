@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Proyecto</title>
+		<link href="efectos25.css" rel="stylesheet" type="text/css">
+		<script src="registro.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<br>
+		<p class="título24">Registro de Flores</p>
+		<table border="3" width="80%">
+			<form name="forma_registro">
+				<tr>
+					<td align="center" colspan="2"><p><b>Los datos marcados con <font color="red">*</font> son obligatorios</b></p></td>
+				</tr>
+				<tr>
+					<td><p>Indica el tipo de flor</p></td>
+					<td align="center"><input name="tipo" type="text" class="campo" onclick="campo_tipo()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica el lugar</p></td>
+					<td align="center"><input name="lugar" type="text" class="campo" onclick="campo_lugar()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica la duración</p></td>
+					<td align="center"><input name="dura" type="text" class="campo" onclick="campo_dura()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica el alimento</p></td>
+					<td align="center"><input name="alimen" type="text" class="campo"><font color="white">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica el precio</p></td>
+					<td align="center"><input name="precio" type="text" class="campo"><font color="white">*</font></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+						<table width="80%">
+							<tr align="center">
+								<td><input name="b_enviar" type="button" class="botón" value="Enviar" onclick="enviar()"></td>
+								<td><input name="b_borrar" type="reset" class="botón" value="Borrar" style="background: red"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>

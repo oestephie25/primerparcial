@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Proyecto</title>
+		<link href="efectos25.css" rel="stylesheet" type="text/css">
+		<script src="contacto.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<br>
+		<p class="título24">Indica tus datos de contacto</p>
+		<table border="3" width="80%">
+			<form name="forma">
+				<tr>
+					<td align="center" colspan="2"><p><b>Los datos marcados con <font color="red">*</font> son obligatorios</b></p></td>
+				</tr>
+				<tr>
+					<td><p>Indica tu nombre</p></td>
+					<td align="center"><input name="nombre" type="text" class="campo" onclick="campo_nombre()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica tu apellido paterno</p></td>
+					<td align="center"><input name="ap_pat" type="text" class="campo" onclick="campo_ap_pat()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica tu apellido materno</p></td>
+					<td align="center"><input name="ap_mat" type="text" class="campo"><font color="white">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica tu número telefónico</p></td>
+					<td align="center"><input name="num_tel" type="number" class="campo"><font color="white">*</font></td>
+				</tr>
+				<tr>
+					<td><p>Indica tu correo electrónico</p></td>
+					<td align="center"><input name="correo" type="text" class="campo" onclick="campo_correo()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+						<table width="80%">
+							<tr align="center">
+								<td><input name="b_enviar" type="button" class="botón" value="Enviar" onclick="enviar()"></td>
+								<td><input name="b_borrar" type="reset" class="botón" value="Borrar" style="background: red"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
